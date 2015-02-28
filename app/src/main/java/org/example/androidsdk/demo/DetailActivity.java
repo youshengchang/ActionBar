@@ -36,7 +36,6 @@ public class DetailActivity extends Activity {
 
                 Intent intent = new Intent(Intent.ACTION_VIEW, Uri.parse(webpage));
                 startActivity(intent);
-
                 return false;
             }
         });
